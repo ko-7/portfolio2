@@ -1,0 +1,33 @@
+〇Worksで使うテンプレート
+<!-- 実績テンプレート -->
+        <div class="work">
+          <!-- ↓↓　ページリンク　↓↓ -->
+          <a href="" target="_blank" rel="noopener noreferrenr"></a>
+          <!-- ↓↓　タイトル　↓↓ -->
+          <h3>ポートフォリオサイト（このサイトです）</h3>
+          <div class="work-content1">
+            <!--↓↓　top画像　↓↓ -->
+            <p class="work-img">
+              <img src="">
+            </p>
+            <!--↓↓　画像右のテキスト　↓↓ -->
+            <div class="work-text-wrapper">
+              <h4>●作業範囲</h4>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <h4>●使用した技術</h4>
+              <ul>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+          <!-- ↓↓　画像左のテキスト　↓↓ -->
+          <div class="work-content2">
+            <!-- ↓↓　概要説明　↓↓ -->
+            <p></p>
+          </div>
+        </div>
