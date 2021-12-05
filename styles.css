@@ -80,6 +80,7 @@ header .header-menu .menu {
 
 .main {
   width: 80%;
+  max-width: 960px;
   margin: 0 auto;
   margin-top: 100px;
   display: -webkit-box;
@@ -111,7 +112,7 @@ header .header-menu .menu {
   font-size: 30px;
 }
 
-.main .works .work {
+.main .works .content .work {
   position: relative;
   width: 100%;
   height: 400px;
@@ -120,7 +121,7 @@ header .header-menu .menu {
   border-radius: 10px;
 }
 
-.main .works .work a {
+.main .works .content .work a {
   position: absolute;
   top: 0;
   left: 0;
@@ -128,32 +129,32 @@ header .header-menu .menu {
   height: 100%;
 }
 
-.main .works .work a:hover {
+.main .works .content .work a:hover {
   background-color: white;
   opacity: 0.5;
 }
 
-.main .works .work h3 {
+.main .works .content .work h3 {
   display: inline-block;
   margin: 0;
   margin-bottom: 10px;
   border-bottom: 1px solid #888;
 }
 
-.main .works .work .work-content1 {
+.main .works .content .work .work-content1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main .works .work .work-img {
+.main .works .content .work .work-img {
   max-width: 500px;
   height: 250px;
   margin: 0;
   overflow: hidden;
 }
 
-.main .works .work .work-img img {
+.main .works .content .work .work-img img {
   width: 500px;
   height: 250px;
   -o-object-fit: cover;
@@ -162,22 +163,16 @@ header .header-menu .menu {
           box-shadow: 10px 5px 3px #888;
 }
 
-.main .works .work .work-text-wrapper {
+.main .works .content .work .work-text-wrapper {
   margin-left: 30px;
 }
 
-.main .works .work .work-text-wrapper h4 {
+.main .works .content .work .work-text-wrapper h4 {
   margin: 0;
 }
 
-.main .works .work .work-text-wrapper ul {
+.main .works .content .work .work-text-wrapper ul {
   margin: 0;
-}
-
-.main .work-divider {
-  margin: 80px auto;
-  width: 50%;
-  border-bottom: 1px solid #333;
 }
 
 .main .profile {
@@ -188,6 +183,9 @@ header .header-menu .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main .profile .content .profile-img {
@@ -235,6 +233,12 @@ header .header-menu .menu {
   width: 100%;
   min-height: 60px;
   font-family: serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .contact .formrun textarea:hover {
+  border: 2px solid #000;
 }
 
 .main .contact .formrun div {
@@ -249,8 +253,8 @@ header .header-menu .menu {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
-  width: 300px;
-  height: 30px;
+  width: 200px;
+  height: 45px;
   border: none;
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 3px black;
@@ -258,6 +262,7 @@ header .header-menu .menu {
   background-color: #3f51b5;
   color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
 footer {
