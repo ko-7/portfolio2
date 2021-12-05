@@ -180,6 +180,10 @@ header .header-menu .menu {
   border-bottom: 1px solid #333;
 }
 
+.main .profile {
+  margin-bottom: 100px;
+}
+
 .main .profile .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,5 +214,61 @@ header .header-menu .menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.main .contact {
+  margin-bottom: 100px;
+}
+
+.main .contact .formrun input {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #888;
+  font-family: serif;
+}
+
+.main .contact .formrun input:hover {
+  border-bottom: 2px solid #000;
+}
+
+.main .contact .formrun textarea {
+  width: 100%;
+  min-height: 60px;
+  font-family: serif;
+}
+
+.main .contact .formrun div {
+  margin-bottom: 50px;
+}
+
+.main .contact .formrun div label {
+  display: block;
+}
+
+.main .contact .formrun button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 3px black;
+          box-shadow: 1px 1px 3px black;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  line-height: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
