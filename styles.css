@@ -105,7 +105,8 @@ header .header-menu .menu {
 .main h2 {
   margin-bottom: 50px;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 5px solid #000;
+  border-bottom-style: dotted;
 }
 
 .main span {
