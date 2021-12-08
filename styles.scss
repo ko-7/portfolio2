@@ -187,6 +187,22 @@ header{
 
 
   .contact{
+
+    //↓↓　内容不明(inputの入力時の枠削除のためのコード)↓↓-------------------------
+    // 出典：https://www.nxworld.net/15-useful-css-snippets-in-form-style.html
+    input, button, textarea, select {
+      margin: 0;
+      padding: 0;
+      background: none;
+      border: none;
+      border-radius: 0;
+      outline: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    // ↑↑　------　↑↑　---------------------------------------------------------
+
     margin-bottom: 100px;
     .formrun{
       @media screen and (max-width: 600px){
@@ -202,14 +218,13 @@ header{
           border-bottom: 2px solid #000;
         }
         // &:focus{
-        //   border: none!important;
-        //   background-color: yellow;
-        //   border-bottom: 1px solid #00f;
+        //   border-bottom: 3px solid #00f;
         // }
       }
       textarea{
         width: 100%;
         min-height: 60px;
+        border: 1px solid #888;
         font-family: serif;
         box-sizing: border-box;
         &:hover{
@@ -250,3 +265,5 @@ footer{
     line-height: 30px;
   }
 }
+
+
