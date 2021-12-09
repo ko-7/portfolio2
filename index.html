@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
 
-    <!-- formrun用のjavascript -->
-    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
 
-    <title>ポートフォリオサイト</title>
-  </head>
-  <body>
-    
-    <!-- header---------------------------------------------------------------------------- -->
-    <!-- <header>
+  <!-- jQuery読み込み -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js"></script>
+
+  <!-- formrun用のjavascript -->
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+
+  <title>ポートフォリオサイト</title>
+</head>
+
+<body>
+  <!-- header---------------------------------------------------------------------------- -->
+  <!-- <header>
       <div class="header-logo">
         <img src="image/header-logo.svg" width="36" height="36">
         <h1>Portfolio</h1>
@@ -24,183 +29,193 @@
         <div class="menu Works"><a href="file://wsl%24/Ubuntu-20.04/home/wsluser/html/portfolio2/works.html">Works</a></div>
       </div>
     </header> -->
-    <p class="header-img">
-      <img src="image/welcomeSea.png">
-    </p>
+  <div class="header-img">
+    <!-- <img src="image/welcomeSea.png"> -->
+  </div>
 
-    <!-- main------------------------------------------------------------------------------- -->
-    <div class="main">
 
-      <!-- Works--------------------------------------------------------------------------- -->
-      <div class="works">
-        <h2><span>W</span>orks</h2>
 
-        <div class="content">
-          <!-- 実績⓶ -->
-          <div class="work">
-            <a href="https://master.d28dj8kho5sa4e.amplifyapp.com/" target="_blank" rel="noopener noreferrenr"></a>
-            <h3>エアコンクリーニングのHP</h3>
-            <div class="work-content1">
-              <p class="work-img">
-                <img src="image/works/cleaning.jpg">
-              </p>
-              <!--↓↓　画像右のテキスト　↓↓ -->
-              <div class="work-text-wrapper">
-                <h4>●作業範囲</h4>
-                <ul>
-                  <li>デザイン</li>
-                </ul>
-                <h4>●使用した技術</h4>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </div>
-            </div>
-            <!-- ↓↓　画像左のテキスト　↓↓ -->
-            <div class="work-content2">
-              <!-- ↓↓　概要説明　↓↓ -->
-              <p>
-                ランサーズ初受注の案件です。(依頼者の許可の上紹介しています)<br>
-                デザインは類似ページから選定して提案し、HTML・CSSを使用してのコーディングとレスポンシブ対応を致しました。<br>
-              </p>
+  <!-- main------------------------------------------------------------------------------- -->
+  <div class="main">
+
+    <!-- Works--------------------------------------------------------------------------- -->
+    <div class="works">
+      <h2><span>W</span>orks</h2>
+
+      <div class="content">
+        <!-- 実績⓶ -->
+        <div class="work">
+          <a href="https://master.d28dj8kho5sa4e.amplifyapp.com/" target="_blank" rel="noopener noreferrenr"></a>
+          <h3>エアコンクリーニングのHP</h3>
+          <div class="work-content1">
+            <p class="work-img">
+              <img src="image/works/cleaning.jpg">
+            </p>
+            <!--↓↓　画像右のテキスト　↓↓ -->
+            <div class="work-text-wrapper">
+              <h4>●作業範囲</h4>
+              <ul>
+                <li>デザイン</li>
+              </ul>
+              <h4>●使用した技術</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
             </div>
           </div>
-
-
-          <!-- 実績⓶ -->
-          <div class="work">
-            <a href="https://karacafe.wixsite.com/salon" target="_blank" rel="noopener noreferrenr"></a>
-            <h3>エステサロンHP(サンプルページ)</h3>
-            <div class="work-content1">
-              <p class="work-img">
-                <img src="image/works/wixSalon.png">
-              </p>
-              <!--↓↓　画像右のテキスト　↓↓ -->
-              <div class="work-text-wrapper">
-                <h4>●作業範囲</h4>
-                <ul>
-                  <li>デザイン</li>
-                </ul>
-                <h4>●使用した技術</h4>
-                <ul>
-                  <li>Wix</li>
-                </ul>
-              </div>
-            </div>
-            <!-- ↓↓　画像左のテキスト　↓↓ -->
-            <div class="work-content2">
-              <!-- ↓↓　概要説明　↓↓ -->
-              <p>
-                Wixはパワーポイントを扱うような感覚で使用できるので、直感的にホームページを作成することができます。<br>
-                気軽にホームページ作成したい方にとてもおすすめです。
-              </p>
-            </div>
-          </div>
-
-          <!-- 実績⓵ -->
-          <div class="work">
-            <a href="https://master.d9x0i09i3pzy1.amplifyapp.com/" target="_blank" rel="noopener noreferrenr"></a>
-            <h3>タイピングゲーム</h3>
-            <div class="work-content1">
-              <p class="work-img">
-                <img src="image/works/typingmogura2.png">
-              </p>
-              <div class="work-text-wrapper">
-                <h4>●作業範囲</h4>
-                <ul>
-                  <li>コーディング</li>
-                  <li>サーバーへのアップ</li>
-                </ul>
-                <h4>●使用した技術</h4>
-                <ul>
-                  <li>html, css</li>
-                  <li>JavaScript</li>
-                  <li>AWS amplify(サーバー)</li>
-                </ul>
-              </div>
-            </div>
-            <div class="work-content2">
-              <p>
-                JavaScriptの練習として作成したページです。<br>
-                キーボードから入力したキーの読み取り方、一定時間入力がない場合に次の文字に移る機能などにかなり苦戦しました。
-              </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-      <!-- profile----------------------------------------------------------------------- -->
-      <div class="profile">
-        <h2><span>P</span>rofile</h2>
-        <div class="content">
-          <p class="profile-img">
-            <img src="image/profile.jpg">
-          </p>
-          <div class="text">
-            <h3>志村　鴻（しむら　こう）</h3>
-            <h3>所在地：浜松</h3>
-            <h3>スキル：HTML、CSS、JavaScript</h3>
-            <h3>学習中：<div class="line2">React、Node、AWS、WordPress</div></h3>
+          <!-- ↓↓　画像左のテキスト　↓↓ -->
+          <div class="work-content2">
+            <!-- ↓↓　概要説明　↓↓ -->
+            <p>
+              ランサーズ初受注の案件です。(依頼者の許可の上紹介しています)<br>
+              デザインは類似ページから選定して提案し、HTML・CSSを使用してのコーディングとレスポンシブ対応を致しました。<br>
+            </p>
           </div>
         </div>
+
+
+        <!-- 実績⓶ -->
+        <div class="work">
+          <a href="https://karacafe.wixsite.com/salon" target="_blank" rel="noopener noreferrenr"></a>
+          <h3>エステサロンHP(サンプルページ)</h3>
+          <div class="work-content1">
+            <p class="work-img">
+              <img src="image/works/wixSalon.png">
+            </p>
+            <!--↓↓　画像右のテキスト　↓↓ -->
+            <div class="work-text-wrapper">
+              <h4>●作業範囲</h4>
+              <ul>
+                <li>デザイン</li>
+              </ul>
+              <h4>●使用した技術</h4>
+              <ul>
+                <li>Wix</li>
+              </ul>
+            </div>
+          </div>
+          <!-- ↓↓　画像左のテキスト　↓↓ -->
+          <div class="work-content2">
+            <!-- ↓↓　概要説明　↓↓ -->
+            <p>
+              Wixはパワーポイントを扱うような感覚で使用できるので、直感的にホームページを作成することができます。<br>
+              気軽にホームページ作成したい方にとてもおすすめです。
+            </p>
+          </div>
+        </div>
+
+        <!-- 実績⓵ -->
+        <div class="work">
+          <a href="https://master.d9x0i09i3pzy1.amplifyapp.com/" target="_blank" rel="noopener noreferrenr"></a>
+          <h3>タイピングゲーム</h3>
+          <div class="work-content1">
+            <p class="work-img">
+              <img src="image/works/typingmogura2.png">
+            </p>
+            <div class="work-text-wrapper">
+              <h4>●作業範囲</h4>
+              <ul>
+                <li>コーディング</li>
+                <li>サーバーへのアップ</li>
+              </ul>
+              <h4>●使用した技術</h4>
+              <ul>
+                <li>html, css</li>
+                <li>JavaScript</li>
+                <li>AWS amplify(サーバー)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work-content2">
+            <p>
+              JavaScriptの練習として作成したページです。<br>
+              キーボードから入力したキーの読み取り方、一定時間入力がない場合に次の文字に移る機能などにかなり苦戦しました。
+            </p>
+          </div>
+        </div>
+
       </div>
-      
+    </div>
 
 
-      <!-- contact------------------------------------------------------------------------ -->
-      <div class="contact">
-        <h2><span>C</span>ontact</h2>
 
-        <!--　↓↓　formrunのコードコピペ　↓↓------------------------------- -->
+    <!-- profile----------------------------------------------------------------------- -->
+    <div class="profile">
+      <h2><span>P</span>rofile</h2>
+      <div class="content">
+        <p class="profile-img">
+          <img src="image/profile.jpg">
+        </p>
+        <div class="text">
+          <h3>志村　鴻（しむら　こう）</h3>
+          <h3>所在地：浜松</h3>
+          <h3>スキル：HTML、CSS、JavaScript</h3>
+          <h3>学習中：<div class="line2">React、Node、AWS、WordPress</div>
+          </h3>
+        </div>
+      </div>
+    </div>
 
-        <!-- class, action, methodを変更しないでください -->
-        <form class="formrun" action="https://form.run/api/v1/r/5f8e0r2iwicmvlo3q02xgvyk" method="post">
-          <div>
-            <label>お名前[任意]</label>
-            <input name="お名前" type="text">
-          </div>
 
-          <div>
-            <label>メールアドレス [必須]</label>
-            <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
-            <div data-formrun-show-if-error="メールアドレス" style="color:red;">メールアドレスを正しく入力してください</div>
-          </div>
+    <!-- contact------------------------------------------------------------------------ -->
+    <div class="contact">
+      <h2><span>C</span>ontact</h2>
 
-          <div>
-            <label>お問い合わせ [必須]</label>
-            <textarea name="お問い合わせ" data-formrun-required></textarea>
-            <div data-formrun-show-if-error="お問い合わせ" style="color:red;">お問い合わせ内容を入力してください</div>
-          </div>
+      <!--　↓↓　formrunのコードコピペ　↓↓------------------------------- -->
 
-          <!-- <div>
+      <!-- class, action, methodを変更しないでください -->
+      <form class="formrun" action="https://form.run/api/v1/r/5f8e0r2iwicmvlo3q02xgvyk" method="post">
+        <div>
+          <label>お名前[任意]</label>
+          <input name="お名前" type="text">
+        </div>
+
+        <div>
+          <label>メールアドレス [必須]</label>
+          <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+          <div data-formrun-show-if-error="メールアドレス" style="color:red;">メールアドレスを正しく入力してください</div>
+        </div>
+
+        <div>
+          <label>お問い合わせ [必須]</label>
+          <textarea name="お問い合わせ" data-formrun-required></textarea>
+          <div data-formrun-show-if-error="お問い合わせ" style="color:red;">お問い合わせ内容を入力してください</div>
+        </div>
+
+        <!-- <div>
             <label>個人情報利用同意 [必須]</label>
             <input type="checkbox" name="個人情報利用同意" data-formrun-required>
             <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
           </div> -->
 
-          <!-- ボット投稿をブロックするためのタグ -->
-          <div class="_formrun_gotcha">
-            <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-            <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-            <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-          </div>
+        <!-- ボット投稿をブロックするためのタグ -->
+        <div class="_formrun_gotcha">
+          <style media="screen">
+            ._formrun_gotcha {
+              position: absolute !important;
+              height: 1px;
+              width: 1px;
+              overflow: hidden;
+            }
+          </style>
+          <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+          <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+        </div>
 
-          <button type="submit" data-formrun-submitting-text="送信中...">送信</button>
-        </form>
+        <button type="submit" data-formrun-submitting-text="送信中...">送信</button>
+      </form>
 
-        <!--　↑↑　formrunのコードコピペ　↑↑------------------------------- -->
-      </div>
-
+      <!--　↑↑　formrunのコードコピペ　↑↑------------------------------- -->
     </div>
 
-    <footer>
-      <p>© 2021 Shimura</p>
-    </footer>
-    
-    <script src="main.js"></script>
-  </body>
+  </div>
+
+  <footer>
+    <p>© 2021 Shimura</p>
+  </footer>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>

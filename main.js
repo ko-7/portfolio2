@@ -1,0 +1,4 @@
+$(function(){
+  $(".header-img").ripples();
+})
+

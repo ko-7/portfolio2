@@ -68,14 +68,12 @@ header .header-menu .menu {
 }
 
 .header-img {
-  position: relative;
-  margin: 0;
-}
-
-.header-img img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(image/welcomeSea.png) center no-repeat;
+  background-size: 100%;
   width: 100%;
-  opacity: 0.8;
-  display: block;
+  padding-top: 20%;
 }
 
 .main {
