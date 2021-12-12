@@ -74,6 +74,8 @@ header .header-menu .menu {
   background-size: 100%;
   width: 100%;
   padding-top: 45%;
+  -webkit-filter: brightness(145%);
+          filter: brightness(145%);
 }
 
 .main {
